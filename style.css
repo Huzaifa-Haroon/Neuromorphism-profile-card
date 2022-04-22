@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.842);
+    position: relative;
+    overflow: hidden;
+}
+
+.box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 30vw;
+    padding: .5rem;
+    border-radius: 10px;
+    box-shadow: inset 3px 3px 5px rgba(119, 119, 119, 0.89) , inset -3px -3px 5px rgba(0, 0, 0, 0.89);
+}
+
+img , h3 , p{
+    margin: 0.5rem 0rem;
+}
+
+img{
+    width: 30%;
+    border-radius: 50%;
+}
+
+.box h3{
+    color: white;
+    font-size: 1.8rem;
+}
+
+.box p{
+    color: white;
+    font-size: .9rem;
+    text-align: center;
+    padding: 0rem .4rem;
+}
+
+.icons-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons{
+    color: white;
+    font-size: 30px;
+    
+}
+
+.icons-a{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 2rem 0.7rem;
+    width: 60px;
+    height: 60px;
+    box-shadow: 1px 2px 5px rgba(78, 77, 77, 0.89) , -3px -3px 5px rgba(0, 0, 0, 0.89);
+    border-radius: 50%;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.icons-a:hover{
+    background-color: #F05454;
+    box-shadow: none;
+}
+
+.heading{
+    width: 50%;
+    margin-bottom: 1rem;
+}
+
+h2{
+    font-size: 2rem;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    font-family: 'Mali', cursive;
+    border-radius: 5px;
+    box-shadow: inset 3px 3px 5px rgba(119, 119, 119, 0.89) , inset -3px -3px 5px rgba(0, 0, 0, 0.89);
+
+}
+ 
+@media screen and (max-width: 1200px) {
+    .box{
+        width: 40vw;
+    }
+    p{
+        font-size: .8rem;
+    }
+}
+@media screen and (max-width: 830px) {
+    .box{
+        width: 50vw;
+    }
+    p{
+        font-size: .7rem;
+    }
+}
+@media screen and (max-width: 700px) {
+    .box{
+        width: 60vw;
+    }
+}
+@media screen and (max-width: 550px) {
+    .box{
+        width: 80vw;
+    }
+}
+@media screen and (max-width: 400px) {
+    .box{
+        width: 90vw;
+    }
+}
