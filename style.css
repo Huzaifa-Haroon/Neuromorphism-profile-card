@@ -87,7 +87,6 @@ img{
     width: 50%;
     margin-bottom: 1rem;
 }
-
 h2{
     font-size: 2rem;
     padding: 1rem;
@@ -113,6 +112,12 @@ h2{
     }
     p{
         font-size: .7rem;
+    }
+    .heading{
+        width: 100%;
+    }
+    h2{
+        font-size: 1.5rem;
     }
 }
 @media screen and (max-width: 700px) {
